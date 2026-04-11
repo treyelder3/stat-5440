@@ -20,12 +20,13 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+# OAuth2 token
 .httr-oauth
 
 # knitr and R markdown default cache directories
@@ -47,3 +48,36 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Stan
+*.hpp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Large data files — keep small datasets only
+*.csv.gz
+*.rds.gz
+*.parquet
+*.feather
+*.sqlite
+*.db
